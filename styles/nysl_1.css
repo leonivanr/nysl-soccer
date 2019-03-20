@@ -1,0 +1,96 @@
+/* Atributos de la página*/
+#site {
+  position: relative;
+  width: 850px;
+  margin: auto;
+  font-family: 'Varela Round', sans-serif;
+}
+
+/*Atributos del banner*/
+header {
+  padding-top: 3%;
+}
+
+h4 {
+  position: absolute;
+  font-size: 2.5em;
+  padding: 2% 0 0 3%;
+  color: white;
+}
+
+h3 {
+  margin: 0px;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: black;
+  color: white;
+}
+
+#logo {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 70%;
+  top: 72%;
+}
+
+/*Atributos de la barra de navegación*/
+nav {
+  float: left;
+  width: 11%;
+}
+
+.current {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 1em;
+  margin-left: 1em;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: blue;
+  padding-top: 1em;
+}
+
+li a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Atributos de seccion */
+section {
+  float: right;
+  width: 87%;
+  margin-top: 4%;
+  height: 350px;
+}
+
+section p {
+  padding-top: 0.5em;
+  text-indent: 1em;
+}
+
+h5 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.titlelist {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.titleitem {
+  margin-left: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}

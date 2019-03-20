@@ -1,0 +1,154 @@
+/* Atributos de la página*/
+body {
+  position: relative;
+  background-color: #7ecba1;
+}
+
+#site {
+  padding-top: 1%;
+  position: relative;
+  width: 850px;
+  margin: auto;
+  height: auto;
+  font-family: 'Varela Round', sans-serif;
+}
+
+/*Atributos del banner*/
+h4 {
+  margin: 0px;
+  padding: 1%;
+  font-size: 2em;
+  color: white;
+  background-color: #466551;
+  text-align: center;
+  color: #e7eed2;
+}
+
+h3 {
+  width: 100%;
+  position: relative;
+  background-color: #466551;
+  color: #e7eed2;
+  top: 100%;
+  z-index: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #e7eed2;
+}
+
+#logo {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 150px;
+  left: 80%;
+}
+
+/*Atributos de la barra de navegación*/
+nav {
+  width: 100%;
+  position: relative;
+  top: 89%;
+  border-bottom-style: solid;
+  border-color: #e7eed2;
+  border-width: thin;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #466551;
+}
+
+li a:hover {
+  background-color: #e7eed2;
+  color: #466551;
+}
+
+.current {
+  background-color: #368c72;
+  font-weight: bold;
+}
+
+/* Atributos de lista de eventos */
+section {
+  position: relative;
+  top: 108%;
+  background-color: #466551;
+  width: 98%;
+  margin-bottom: 3%;
+  padding: 4% 1%;
+  height: auto;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section p {
+  padding-top: 0.5em;
+  padding-right: 1em;
+  text-indent: 1em;
+  color: #e7eed2;
+}
+
+#listas ul {
+  list-style-type: circle;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#listas ol {
+  list-style-type: decimal;
+  padding-left: 1em;
+}
+
+#listas ol li {
+  list-style-type: decimal;
+  padding-left:  1em;
+}
+
+h6 {
+  color: white;
+}
+
+h4 {
+  font-size: 1.5em;
+  text-align: center;
+}
+h5 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #e7eed2;
+}
+
+.titlelist {
+  font-weight: bolder;
+  font-style: italic;
+  color: #e7eed2;
+}
+
+.titleitem {
+  margin-left: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  color: #e7eed2;
+}

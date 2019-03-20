@@ -1,0 +1,101 @@
+/* Atributos de la página*/
+#site {
+  position: relative;
+  width: 850px;
+  margin: auto;
+  font-family: 'Varela Round', sans-serif;
+}
+
+/*Atributos del banner*/
+header {
+  padding-top: 3%;
+}
+
+h4 {
+  margin: 0px;
+  font-size: 1.9em;
+  padding-bottom: 2%
+}
+
+h3 {
+  margin: 0px;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: black;
+  color: white;
+}
+
+#logo {
+  margin-top: 1%;
+  height: 150px;
+  width: 150px;
+  float: left;
+  position: absolute;
+}
+
+/*Atributos de la barra de navegación*/
+nav {
+  position: absolute;
+  top: 7.5%;
+  left: 70%;
+}
+
+nav li {
+  padding-left: 1.2em;
+  border-color: green;
+  display: inline;
+}
+
+nav a {
+  border-style: solid;
+  border-color: black;
+  padding: 0.35em;
+  margin: auto;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0.3em 0.3em black;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.current {
+  background-color: green;
+}
+
+/* Atributos de lista de eventos */
+section {
+  float: right;
+  width: 80%;
+  margin-top: 4%;
+  margin-left: 2%;
+  height: 350px;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section p {
+  padding-top: 0.5em;
+  text-indent: 1em;
+}
+
+h5 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.titlelist {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.titleitem {
+  margin-left: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
