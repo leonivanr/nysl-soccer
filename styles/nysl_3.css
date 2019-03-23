@@ -3,7 +3,7 @@ body {
   background-color: #7ecba1;
 }
 
-#site {
+#container {
   padding-top: 1%;
   position: relative;
   width: 850px;
@@ -16,17 +16,15 @@ body {
 header {
   height: 340px;
 }
-h4 {
+
+#nombreclub {
   margin: 0px;
   padding: 1%;
   font-size: 2em;
-  color: white;
   background-color: #466551;
   text-align: center;
   color: #e7eed2;
 }
-
-
 
 #logo {
   height: 150px;
@@ -84,6 +82,7 @@ section {
   margin-bottom: 3%;
   height: auto;
 }
+
 #titulopagina {
   width: 100%;
   position: relative;
@@ -97,9 +96,6 @@ section {
   border-width: thin;
   border-color: #e7eed2;
 }
-section ul {
-  list-style-type: none;
-}
 
 section p {
   padding-top: 0.5em;
@@ -108,45 +104,56 @@ section p {
   color: #e7eed2;
 }
 
-.rules {
-  margin-left: 1em;
-  margin-right:  1em;
-  padding-left: 1em;
-  padding-right: 0.3em;
-
-}
-
+/* Para centrar las secciones */
 .centrado {
-  padding-left: 1em;
-  padding-top: 1em;
+  padding: 1em;
 }
 
-#listas ul {
-  list-style-type: none;
-  padding-left: 1em;
-  padding-right: 1em;
+.rules {
+  padding-top: 0.5em;
 }
 
+/* Tipos de lista */
 .enumeradas li {
+  padding-top: 0.5em;
   list-style: decimal;
+  list-style-position: inside;
+  color: #e7eed2;
 }
 
-.alfabetico {
+.alfabetico li {
+  padding-top: 0.5em;
   list-style-type: lower-alpha;
+  list-style-position: inside;
+  color: #e7eed2;
+}
+
+.cuadradas li {
+  padding-top: 0.5em;
+  list-style: square;
+  list-style-position: inside;
+  color: #e7eed2;
+}
+
+.identmax {
+  padding-left: 3em;
 }
 
 .sublist {
   list-style-type: square;
-  padding-left:  1em;
+  padding-left: 1em;
 }
 
 h6 {
-  color: white;
+  color: #7ecba1;
+  font-weight: bolder;
 }
 
 h4 {
   font-size: 1.5em;
   text-align: center;
+  color: white;
+  padding: 1em;
 }
 
 h5 {
@@ -155,6 +162,7 @@ h5 {
   color: #e7eed2;
 }
 
+/*  */
 .titlelist {
   font-weight: bolder;
   font-style: italic;
