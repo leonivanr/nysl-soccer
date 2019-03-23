@@ -10,6 +10,7 @@ body {
   margin: auto;
   height: auto;
   font-family: 'Varela Round', sans-serif;
+  color: #e7eed2;
 }
 
 /*Atributos del banner*/
@@ -76,8 +77,8 @@ li a:hover {
 
 /* Atributos de secciones */
 section {
+  padding: 1.5em;
   position: relative;
-  top: 108%;
   background-color: #466551;
   margin-bottom: 3%;
   height: auto;
@@ -85,10 +86,7 @@ section {
 
 #titulopagina {
   width: 100%;
-  position: relative;
   background-color: #466551;
-  color: #e7eed2;
-  z-index: 0;
   padding-top: 1%;
   padding-bottom: 1%;
   text-align: center;
@@ -99,56 +97,35 @@ section {
 
 section p {
   padding-top: 0.5em;
-  padding-right: 1em;
-  text-indent: 1em;
-  color: #e7eed2;
 }
 
-/* Para centrar las secciones */
-.centrado {
-  padding: 1em;
+/* Pagina de Eventos Proximos */
+.titulo-lista {
+  font-weight: bolder;
+  font-style: italic;
 }
 
+.item-lista {
+  margin-left: 2em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+/* Pagina de Reglas */
 .rules {
   padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.rules ol li {
+  margin-left: 1em;
+  padding-top: 0.3em;
+}
+.rules ul li {
+  margin-left: 1em;
+  padding-top: 0.3em;
 }
 
-/* Tipos de lista */
-.enumeradas li {
-  padding-top: 0.5em;
-  list-style: decimal;
-  list-style-position: inside;
-  color: #e7eed2;
-}
-
-.alfabetico li {
-  padding-top: 0.5em;
-  list-style-type: lower-alpha;
-  list-style-position: inside;
-  color: #e7eed2;
-}
-
-.cuadradas li {
-  padding-top: 0.5em;
-  list-style: square;
-  list-style-position: inside;
-  color: #e7eed2;
-}
-
-.identmax {
-  padding-left: 3em;
-}
-
-.sublist {
-  list-style-type: square;
-  padding-left: 1em;
-}
-
-h6 {
-  color: #7ecba1;
-  font-weight: bolder;
-}
-
+/* Estilo unico para titulo FIFA */
 h4 {
   font-size: 1.5em;
   text-align: center;
@@ -156,31 +133,31 @@ h4 {
   padding: 1em;
 }
 
+/* Estilo de cada titulo de reglas */
+h6 {
+  color: #7ecba1;
+  font-weight: bolder;
+  width: auto;
+}
+
+strong {
+  font-weight: bold;
+}
+/* Estilo para titulo de Objetivos */
 h5 {
   font-size: 1.5em;
   font-weight: bold;
-  color: #e7eed2;
 }
 
-/*  */
-.titlelist {
-  font-weight: bolder;
-  font-style: italic;
-  color: #e7eed2;
-}
-
-.titleitem {
-  margin-left: 2em;
-  padding-bottom: 1em;
-  padding-top: 1em;
-  color: #e7eed2;
-}
+/* Estilo de Tablas */
 table {
-  margin:auto;
+  margin: auto;
 }
+
 td {
-  padding: 7px 20px 7px 20px;
+  padding: 0.5em 2em 0.5em 2em;
 }
+
 th {
   padding: 4px;
   text-decoration: underline;
