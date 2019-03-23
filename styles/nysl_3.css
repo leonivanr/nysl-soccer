@@ -1,6 +1,5 @@
 /* Atributos de la página*/
 body {
-  position: relative;
   background-color: #7ecba1;
 }
 
@@ -14,6 +13,9 @@ body {
 }
 
 /*Atributos del banner*/
+header {
+  height: 340px;
+}
 h4 {
   margin: 0px;
   padding: 1%;
@@ -24,21 +26,7 @@ h4 {
   color: #e7eed2;
 }
 
-h3 {
-  width: 100%;
-  position: relative;
-  background-color: #466551;
-  color: #e7eed2;
-  top: 100%;
-  z-index: 0;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  text-align: center;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-width: thin;
-  border-color: #e7eed2;
-}
+
 
 #logo {
   height: 150px;
@@ -52,7 +40,7 @@ h3 {
 nav {
   width: 100%;
   position: relative;
-  top: 89%;
+  border-top-style: solid;
   border-bottom-style: solid;
   border-color: #e7eed2;
   border-width: thin;
@@ -88,17 +76,27 @@ li a:hover {
   font-weight: bold;
 }
 
-/* Atributos de lista de eventos */
+/* Atributos de secciones */
 section {
   position: relative;
   top: 108%;
   background-color: #466551;
-  width: 98%;
   margin-bottom: 3%;
-  padding: 4% 1%;
   height: auto;
 }
-
+#titulopagina {
+  width: 100%;
+  position: relative;
+  background-color: #466551;
+  color: #e7eed2;
+  z-index: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #e7eed2;
+}
 section ul {
   list-style-type: none;
 }
@@ -110,19 +108,35 @@ section p {
   color: #e7eed2;
 }
 
-#listas ul {
-  list-style-type: circle;
-  padding-left: 2em;
-  padding-right: 2em;
-}
-
-#listas ol {
-  list-style-type: decimal;
+.rules {
+  margin-left: 1em;
+  margin-right:  1em;
   padding-left: 1em;
+  padding-right: 0.3em;
+
 }
 
-#listas ol li {
-  list-style-type: decimal;
+.centrado {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+#listas ul {
+  list-style-type: none;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.enumeradas li {
+  list-style: decimal;
+}
+
+.alfabetico {
+  list-style-type: lower-alpha;
+}
+
+.sublist {
+  list-style-type: square;
   padding-left:  1em;
 }
 
@@ -134,6 +148,7 @@ h4 {
   font-size: 1.5em;
   text-align: center;
 }
+
 h5 {
   font-size: 1.5em;
   font-weight: bold;
