@@ -175,3 +175,13 @@ h5 {
   padding-top: 1em;
   color: #e7eed2;
 }
+table {
+  margin:auto;
+}
+td {
+  padding: 7px 20px 7px 20px;
+}
+th {
+  padding: 4px;
+  text-decoration: underline;
+}
