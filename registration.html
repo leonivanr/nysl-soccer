@@ -37,17 +37,57 @@
     <h3 id="titulopagina">Registration Form</h3>
     <section>
       <form action="show_data.html" method="GET">
-        Player's Firs Name:<input type="text" name="first_name">
-        Last name:<input type="text" name="lastname">
+        <fielset>
+          <label>
+          Player's Firs Name:<input type="text" name="first_name">
+          </label>
+          <label>Last name:<input type="text" name="lastname"></label>
+          <br>
+          <label>Street Address:<input type="text" name="adress"></label>
+          <br>
+          <label>City:<input type="text" name="city"></label>
+          <label>Zip code:<input type="text" name="zipcode"></label>
+          <br>
+          <label>Birth Date :<input type="date" name="birthday"></label>
+          Gender:<input type="radio" name="gender" value="female"> Female
+          <input type="radio" name="gender" value="male"> Male
+          <br>
+          Grade:
+          <input type="radio" name="grade" value="pre-school"> Pre-School
+          <input type="radio" name="grade" value="1st"> 1st
+          <input type="radio" name="grade" value="2nd"> 2nd
+          <input type="radio" name="grade" value="3rd"> 3rd
+          <input type="radio" name="grade" value="4th"> 4rd
+          <input type="radio" name="grade" value="5th"> 5rd
+          <br>
+          Parent/Guardian:<input type="text" name="parent">
+          <br>
+          Contact Phone:<input type="text" name="phone">
+          Contact Email<input type="text" name="email">
+        </fielset>
         <br>
-        Street Address:<input type="text" name="adress">
         <br>
-        City:<input type="text" name="city">
-        Zip code:<input type="text" name="zipcode">
-        <br>
-        Birth Date :<input type="date" name="birthday">
-        Gender:<input type="radio" name="gender" value="female" checked> Female
-        <input type="radio" name="day" value="male"> Male
+        <fielset>
+          <legend>Which elementary schools do you live near?</legend>
+          <label>First Closest School:
+            <select name="first-school" >
+              <option value="Friday" selected>AJ Katzenmaier</option>
+              <option value="Saturday">Greenbay</option>
+              <option value="Sunday">Howard A Yeager</option>
+              <option value="Friday" selected>Marjorie P Hart</option>
+              <option value="Saturday">North Elementary</option>
+              <option value="Sunday">South Elementary</option>
+            </select></label>
+          <label>Second Closest School:
+            <select name="second-school">
+              <option value="Friday" selected>AJ Katzenmaier</option>
+              <option value="Saturday">Greenbay</option>
+              <option value="Sunday">Howard A Yeager</option>
+              <option value="Friday" selected>Marjorie P Hart</option>
+              <option value="Saturday">North Elementary</option>
+              <option value="Sunday">South Elementary</option>
+            </select></label>
+        </fielset>
         <br>
         <input type="submit" value="Submit">
       </form>
