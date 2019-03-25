@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="./styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="./styles/nysl_3.css">
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <title> NYSL | Registration Form </title>
+</head>
+
+<body>
+  <div id="container">
+
+    <!-- Banner -->
+
+    <header>
+      <h4 id="nombreclub">Northside Youth Soccer League</h4>
+      <img id="banner_img" src="./images/running_boy_fixed.jpg" alt="Banner">
+      <img id="logo" src="./images/logo.png" alt="NYSL Logo">
+    </header>
+
+    <!-- Barra de Navegacion-->
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gameinfo.html">Game Info</a></li>
+        <li><a href="rules.html">Rules</a></li>
+        <li><a class="current" href=#>Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <!-- Formulario de Registro -->
+    <h3 id="titulopagina">Registration Form</h3>
+    <section>
+      <form action="show_data.html" method="GET">
+        Player's Firs Name:<input type="text" name="first_name">
+        Last name:<input type="text" name="lastname">
+        <br>
+        Street Address:<input type="text" name="adress">
+        <br>
+        City:<input type="text" name="city">
+        Zip code:<input type="text" name="zipcode">
+        <br>
+        Birth Date :<input type="date" name="birthday">
+        Gender:<input type="radio" name="gender" value="female" checked> Female
+        <input type="radio" name="day" value="male"> Male
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+
+  </div>
+</body>
+
+</html>
