@@ -37,9 +37,10 @@
     <h3 id="titulopagina">Registration Form</h3>
     <section>
       <form action="show_data.html" method="GET">
+        <!-- datos principales -->
         <fielset>
           <label>
-          Player's Firs Name:<input type="text" name="first_name">
+            Player's Firs Name:<input type="text" name="first_name">
           </label>
           <label>Last name:<input type="text" name="lastname"></label>
           <br>
@@ -67,33 +68,98 @@
         </fielset>
         <br>
         <br>
+        <!-- escuelas cercanas -->
         <fielset>
           <legend>Which elementary schools do you live near?</legend>
+          <br>
           <label>First Closest School:
-            <select name="first-school" >
-              <option value="Friday" selected>AJ Katzenmaier</option>
-              <option value="Saturday">Greenbay</option>
-              <option value="Sunday">Howard A Yeager</option>
-              <option value="Friday" selected>Marjorie P Hart</option>
-              <option value="Saturday">North Elementary</option>
-              <option value="Sunday">South Elementary</option>
+            <select name="first-school">
+              <option value="aj-katzenmaier">AJ Katzenmaier</option>
+              <option value="greenbay">Greenbay</option>
+              <option value="howard-a-yeager">Howard A Yeager</option>
+              <option value="marjorie-p-hart">Marjorie P Hart</option>
+              <option value="north-elementary">North Elementary</option>
+              <option value="south-elementary">South Elementary</option>
             </select></label>
           <label>Second Closest School:
             <select name="second-school">
-              <option value="Friday" selected>AJ Katzenmaier</option>
-              <option value="Saturday">Greenbay</option>
-              <option value="Sunday">Howard A Yeager</option>
-              <option value="Friday" selected>Marjorie P Hart</option>
-              <option value="Saturday">North Elementary</option>
-              <option value="Sunday">South Elementary</option>
+              <option value="aj-katzenmaier">AJ Katzenmaier</option>
+              <option value="greenbay">Greenbay</option>
+              <option value="howard-a-yeager">Howard A Yeager</option>
+              <option value="marjorie-p-hart">Marjorie P Hart</option>
+              <option value="north-elementary">North Elementary</option>
+              <option value="south-elementary">South Elementary</option>
             </select></label>
         </fielset>
         <br>
+        <br>
+        <!-- posiciones normales-->
+        <fieldset>
+          <legend>What position(s) do you normally play? (check all that apply)</legend>
+          <br>
+          <label><input type="checkbox" name="position-normally" value="forward">Forward</label>
+          <label><input type="checkbox" name="position-normally" value="midfield">Midfield</label>
+          <br>
+          <label><input type="checkbox" name="position-normally" value="defense">Defense</label>
+          <label><input type="checkbox" name="position-normally" value="goalkeeper">Goalkeeper</label>
+        </fieldset>
+        <br>
+        <br>
+        <!-- posiciones buscadas -->
+        <fieldset>
+          <legend>What position(s) do you want to play? (check all that apply)</legend>
+          <br>
+          <label><input type="checkbox" name="position-normally" value="forward">Forward</label>
+          <label><input type="checkbox" name="position-normally" value="midfield">Midfield</label>
+          <br>
+          <label><input type="checkbox" name="position-normally" value="defense">Defense</label>
+          <label><input type="checkbox" name="position-normally" value="goalkeeper">Goalkeeper</label>
+        </fieldset>
+        <br>
+        <br>
+        <!-- uniforme -->
+        <fieldset>
+          <legend><label><input type="checkbox" name="uniform" value="already-have">Already Have a Uniform</label></legend>
+          <br>
+          <label>Jersey Size:
+            <select name="jersey-size">
+              <option value="youth-small">Youth Small</option>
+              <option value="youth-medium">Youth Medium</option>
+              <option value="youth-large">Youth Large</option>
+              <option value="small">Medium</option>
+              <option value="large">Large</option>
+              <option value="extra-large">Extra-Large</option>
+            </select></label>
+          <label>Shorts Size:
+            <select name="short-size">
+              <option value="youth-small">Youth Small</option>
+              <option value="youth-medium">Youth Medium</option>
+              <option value="youth-large">Youth Large</option>
+              <option value="small">Medium</option>
+              <option value="large">Large</option>
+              <option value="extra-large">Extra-Large</option>
+            </select></label>
+        </fieldset>
+
+        <br>
+        <h6>Permission to Play</h6>
+        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in
+          consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers,including the facilities
+          used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from NYSL sponsored activities,which transportation.</p>
+
+        <p>By entering your name below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge that I have read the cancellation policy and agree to its terms. </p>
+        <br>
+        <fieldset>
+          <label>Parent/Guardian Signature: <input type="text" name="signature"> </label>
+          <label>Date:<input type="date" name="signature-date"></label>
+
+        </fieldset>
+        <!-- submit -->
+        <br>
         <input type="submit" value="Submit">
+        <br>
       </form>
     </section>
-
-
   </div>
 </body>
 
