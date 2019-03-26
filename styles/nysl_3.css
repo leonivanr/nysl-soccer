@@ -9,7 +9,7 @@ body {
   width: 850px;
   margin: auto;
   height: auto;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #e7eed2;
 }
 
@@ -181,4 +181,7 @@ form {
 
 }
 input {
+}
+fieldset {
+  margin: auto;
 }
