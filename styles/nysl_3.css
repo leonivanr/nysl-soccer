@@ -158,13 +158,14 @@ h5 {
   font-weight: bold;
 }
 
-/* Estilo de Tablas */
+/* Estilo de Tablas / Game INnfo*/
 table {
   margin: auto;
 }
 
 td {
   padding: 0.5em 2em 0.5em 2em;
+  vertical-align: middle;
 }
 
 th {
@@ -172,8 +173,20 @@ th {
   text-decoration: underline;
 }
 
+span {
+  float: left;
+}
+
 #datos-cronograma {
   padding: 2em;
+}
+
+#mapas h6 {
+  padding-bottom: 1em;
+}
+
+iframe {
+  border-radius: 5px;
 }
 
 /* Estilo de Formulario */
@@ -197,6 +210,7 @@ input[type=text] {
   color: white;
   font-size: 1em;
 }
+
 input[type=text]:focus {
   width: 30%;
   box-sizing: border-box;
@@ -216,6 +230,11 @@ input[type=date] {
   background: none;
   border-bottom: 1px solid #7ecba1;
   color: white;
+}
+
+input[type=radio], input[type=checkbox] {
+  padding-left: 0.5em;
+  margin: 0.5em 0.3em;
 }
 
 select {
@@ -254,4 +273,11 @@ input[type=submit]:hover {
   font-size: 1em;
   display: block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* //////////////// */
+
+/* unvisited link */
+#email {
+ color: #77BF98;
 }
